@@ -1,0 +1,822 @@
+/*Global Settings*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+Html, body, div, h1, h2, h3, h4, p, url, li {
+	Margin: 0;
+	Padding: 0;
+	line-height: 1.5em;
+}
+a:hover {
+  background-color: darkorange;
+}
+footer {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+31,066dab+100;Web+2.0+Blue+3D+%231 */
+background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 31%, rgba(6,109,171,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
+}
+
+/*desktop styles*/
+@media only screen and (min-width:769px) {
+
+.overall {
+	font-family: Satisfy, cursive;
+	font-size: 2em;
+	text-align: center;
+	color: darkorange;
+	text-shadow: 1px 1px 0 white;
+	height: 200px; 
+    width: 100%;
+    background: black url(https://lh3.googleusercontent.com/QMunOksxx_JyNoHj__18hOLqjyUfByZKa0OtiAA3AMnpJQNeM04avNDWAd4eKw4cE0Vu4KpGZg9zV6IEwI5tvjUTWnAryDZHqX8GfQo0EM2A-ukIxx5RC7BidejGQY_SueBR5o69Cw=w600-h315-p-k) no-repeat;
+    background-size: 100% 100%;
+	border-radius: 5px 10px 5px 10px;
+	height: 40px;
+	width: 100%;
+	padding: 3em 15px;
+	position: relative;
+	margin: 0 auto;
+	box-shadow: 3px 5px 5px 1px orange;
+}
+body {
+	width: 90%;
+	background: khaki;
+	padding: 2 em 0;
+	font-family: Georgion, Times, serif;
+	position: relative;
+	margin: 0 auto;
+}
+
+.col1 {
+	width: 21%;
+	height: 650px;
+	padding: 2em 0 40px 0;
+	background: lightblue;
+	border: 2px solid darkblue;
+	border-radius: 2px 8px;
+	font-family: Georgia, Times, serif;
+	color: darkblue;
+	text-shadow: 1px 1px 0 orange;
+	line-height: 1.2em;
+	float: left;
+	position: relative;
+	overflow: auto;
+	
+}
+img {
+	border: 2px solid orange;
+	margin: 0 0 1em 1em;
+	max-width: 100%;
+	height: auto;
+	float: right;
+	object-fit: contain;
+	}
+	.pop-out
+    {
+        transition: transform .5s;
+    }
+
+    .pop-out:hover
+    {
+        -ms-transform: scale(1.5, 1.5);
+        -webkit-transform: scale(1.5, 1.5);
+        transform: scale(1.5, 1.5);
+    }
+footer {
+	clear: both;
+	font: Satisfy,cursive;
+	line-height: .25em;
+	text-align: center;
+	width: 100%;
+	padding: .8em;
+	color: black;
+	border: 3px solid darkblue;
+	box-shadow: 3px 5px 5px 1px orange;
+	border-radius: 5px/10px 10px 5px;
+		}
+
+
+
+/* Home Page Settings, Page 1*/
+.col2home {
+	width: 77%;
+	position: relative;
+	background: lightgoldenrodyellow;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-family: Georgia, Times, serif;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	border-radius: 8px 2px;
+	}
+	
+.container1home {
+	width: 77%;
+	height: auto;
+	position: relative;
+	background: lightgoldenrodyellow;
+	font-family: Georgia, Times, serif;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	border-radius: 8px 2px;
+}
+
+.container2home {
+	width: 77%;
+	height: auto;
+	background: lightgoldenrodyellow;
+	font-family: Georgia, Times, serif;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	border-radius: 8px 2px;
+}	
+article {
+	padding-right: 1em;
+}
+
+.firsthome {
+	color: blue;
+	width: 65%;
+	height: auto;
+	float: left;
+	padding: .5em;
+	}
+.secondhome {
+	color: blue;
+	width: 30%;
+	float: right;
+	padding: .5em;
+	border: 1 px solid darkblue;
+	}
+	
+	/*Page2 Styles*/
+	.col2header {
+		width: 79%;
+		height: auto;
+		background: lightgoldenrod;
+		margin-bottom: 2px;
+		padding: .5em;
+	}
+.col2pg2 {
+	width: 79%;
+	height: auto;
+	background: lightgoldenrodyellow;
+	margin-bottom: 2px;
+	font-family: Georgia, Times, serif;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+		}
+article {
+	padding-right: 1em;
+}
+
+.firstpg2 {
+	color: blue;
+	width: 65%;
+	height: 45%;
+	float: left;
+	padding: .5em;
+	overflow: auto;
+	background: lightgoldenrodyellow;
+	border: 2px solid darkblue;
+	}
+	
+.secondpg2 {
+	color: blue;
+	width: 30%;
+	float: right;
+	padding: .5em;
+	border: 1px solid darkblue;
+	overflow: auto;
+}
+aside {
+	color: blue;
+	width: 16%;
+	font: 80%;
+}
+.container2 {
+	position: relative;
+	width: 90%;
+	background: blue;
+	border: 1px solid darkblue;
+}
+
+.farmtime {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+}
+figcaption {
+		color: darkorange;
+		text-shadow: 1px 1px 0 darkblue;
+}
+	/*Page 3 Styles*/
+	.col2pg3 {
+	width: 77%;
+	background: lightgoldenrodyellow;
+	margin-bottom: 20px;
+	font-family: Georgia, Times, serif;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	}
+article {
+	padding-right: 1em;
+}
+
+.firstpg3 {
+	color: blue;
+	width: 65%;
+	height: 400px;
+	float: left;
+	padding: .5em;
+	overflow: auto;
+}
+.secondpg3 {
+	color: blue;
+	width: 30%;
+	float: right;
+	padding: .5em;
+	border: 1 px solid darkblue;
+	overflow: auto;
+}
+#sseh1 {
+	font-family: Satisfy, cursive;
+	font-size: 1.75em;
+	color: darkorange;
+	text-shadow: 1px 1px 0 white;
+}
+
+/*Page 4 Four Seasons Bakery!*/
+.col1fsb {
+	height: auto;
+	background: lightpink;
+}
+
+.col2pg4 {
+	width: 77%;
+	position: relative;
+	background: lightgoldenrodyellow;
+	margin-bottom: 20px;
+	font-family: Georgia, Times, serif;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	}
+	
+#top4 {
+	color: white;
+	text-shadow: 3px 5px 0 lawngreen;
+	}
+.overall4 {
+	position: relative;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+92,ff5c5c+100 */
+background: rgb(254,187,187); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(254,187,187,1) 0%, rgba(254,144,144,1) 92%, rgba(255,92,92,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(254,187,187,1) 0%,rgba(254,144,144,1) 92%,rgba(255,92,92,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(254,187,187,1) 0%,rgba(254,144,144,1) 92%,rgba(255,92,92,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+}
+article {
+	padding-right: 1em;
+}
+.container1pg4 {
+	width: 77%;
+	position: relative;
+	background: pink;
+	margin-bottom: 20px;
+	font-family: Georgia, Times, serif;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	}
+.overviewpg4 {
+	background: pink;
+}
+.col2pg4 {
+	background: lightpink;
+}
+
+.firstpg4 {
+	color: blue;
+	background: lightpink;
+	width: 40%;
+	float: left;
+	padding: .5em;
+	}
+.secondpg4 {
+	color: blue;
+	background: lightpink;
+	width: 40%;
+	float: right;
+	padding: .5em;
+	border: 1 px solid yellow;
+	}
+}
+/*tablet styles*/
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+body {
+	width: 90%;
+	margin: 0 auto;
+	min-width: 500px;
+	max-width: 768px;
+}
+.overall {
+	font-family: Satisfy, cursive;
+	font-size: 60%;
+	text-align: center;
+	color: darkorange;
+	text-shadow: 2px 2px 0 white;
+	height: 200px; 
+    width: 100%;
+    background: black url(https://lh3.googleusercontent.com/QMunOksxx_JyNoHj__18hOLqjyUfByZKa0OtiAA3AMnpJQNeM04avNDWAd4eKw4cE0Vu4KpGZg9zV6IEwI5tvjUTWnAryDZHqX8GfQo0EM2A-ukIxx5RC7BidejGQY_SueBR5o69Cw=w600-h315-p-k) no-repeat;
+    background-size: 100% 100%;
+	border-radius: 5px 10px 5px 10px;
+	height: 40px;
+	width: 100%;
+	padding: 3em 15px;
+	position: relative;
+	margin: 0 auto;
+	box-shadow: 3px 5px 5px 1px orange;
+}
+body {
+	width: 90%;
+	background: khaki;
+	padding: 2 em 0;
+	font-family: Georgion, Times, serif;
+	position: relative;
+	margin: 0 auto;
+}
+
+.col1 {
+	width: 30%;
+	height: 650px;
+	padding: 2em 0 40px 0;
+	background: lightblue;
+	border: 2px solid darkblue;
+	border-radius: 2px 8px;
+	font-family: Georgia, Times, serif;
+	font-size: 60%;
+	color: darkblue;
+	text-shadow: 1px 1px 0 orange;
+	line-height: 1.2em;
+	float: left;
+	position: relative;
+	overflow: auto;
+	
+}
+img {
+	border: 2px solid orange;
+	margin: 0 0 1em 1em;
+	max-width: 100%;
+	max-height: 100%;
+	float: right;
+	object-fit: cover;
+	}
+footer {
+	clear: both;
+	font: Satisfy,cursive;
+	width: 100%;
+	padding-top: 2em;
+	color: black;
+	text-align: center;
+	box-shadow: 3px 5px 5px 1px orange;
+		}
+
+/* Home Page Settings, Page 1*/
+.col2home {
+	width: 60%;
+	position: relative;
+	background: lightgoldenrodyellow;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-family: Georgia, Times, serif;
+	font-size: 60%;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	border-radius: 8px 2px;
+	}
+	
+.container1home {
+	width: 60%;
+	position: relative;
+	background: lightgoldenrodyellow;
+	font-family: Georgia, Times, serif;
+	font-size: 60%;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	border-radius: 8px 2px;
+}
+
+.container2home {
+	width: 60%;
+	background: lightgoldenrodyellow;
+	font-family: Georgia, Times, serif;
+	font-size: 60%;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	border-radius: 8px 2px;
+}	
+.col2header {
+	display: block;
+	width: 100%;
+	height: auto;
+	float: left;
+}
+article {
+	padding-right: 1em;
+}
+
+.firsthome {
+	color: blue;
+	width: 50%;
+	height: 400px;
+	float: left;
+	padding: .5em;
+	overflow: auto;
+}
+.secondhome {
+	color: blue;
+	width: 50%;
+	float: right;
+	padding: .5em;
+	border: 1 px solid darkblue;
+	overflow: auto;
+}
+	
+	/*Page2 Styles*/
+	
+.col2pg2 {
+	width: 60%;
+	height: 650px;
+	background: lightgoldenrodyellow;
+	margin-bottom: 2px;
+	font-family: Georgia, Times, serif;
+	font-size: 60%;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	}
+article {
+	padding-right: 1em;
+}
+
+.firstpg2 {
+	color: blue;
+	width: 65%;
+	height: 45%;
+	float: left;
+	padding: .5em;
+	overflow: auto;
+}
+.secondpg2 {
+	color: blue;
+	width: 30%;
+	float: right;
+	padding: .5em;
+	border: 1 px solid darkblue;
+	overflow: auto;
+}
+aside {
+	color: blue;
+	width: 16%;
+	font: 80%;
+}
+.container2 {
+	width: 90%;
+}
+
+.farmtime {
+		width: 100%;
+		margin-left: 35%;
+}
+.caption {
+		color: orange;
+		text-shadow: 1px dark blue;
+}
+	/*Page 3 Styles*/
+	.col2pg3 {
+	width: 60%;
+	background: lightgoldenrodyellow;
+	margin-bottom: 20px;
+	font-family: Georgia, Times, serif;
+	font-size: 60%;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	}
+article {
+	padding-right: 1em;
+}
+
+.firstpg3 {
+	color: blue;
+	width: 65%;
+	height: 400px;
+	float: left;
+	padding: .5em;
+	overflow: auto;
+}
+.secondpg3 {
+	color: blue;
+	width: 30%;
+	float: right;
+	padding: .5em;
+	border: 1 px solid darkblue;
+	overflow: auto;
+}
+#sseh1 {
+	font-family: Satisfy, cursive;
+	font-size: 1.75em;
+	color: darkorange;
+	text-shadow: 1px 1px 0 white;
+}
+
+/*Page 4 Four Seasons Bakery!*/
+.col1fsb {
+	height: auto;
+	background: lightpink;
+}
+.col2pg4 {
+	width: 60%;
+	position: relative;
+	background: lightgoldenrodyellow;
+	margin-bottom: 20px;
+	font-family: Georgia, Times, serif;
+	font-size: 60%;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	}
+	
+#top4 {
+	color: white;
+	text-shadow: 3px 5px 0 lawngreen;
+	}
+.overall4 {
+	position: relative;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+92,ff5c5c+100 */
+background: rgb(254,187,187); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(254,187,187,1) 0%, rgba(254,144,144,1) 92%, rgba(255,92,92,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(254,187,187,1) 0%,rgba(254,144,144,1) 92%,rgba(255,92,92,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(254,187,187,1) 0%,rgba(254,144,144,1) 92%,rgba(255,92,92,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+}
+article {
+	padding-right: 1em;
+}
+.container1pg4 {
+	width: 60%;
+	position: relative;
+	background: pink;
+	margin-bottom: 20px;
+	font-family: Georgia, Times, serif;
+	font-size: 60%;
+	color: blue;
+	float: right;
+	padding: .5em;
+	border: 2px solid darkblue;
+	}
+.overviewpg4 {
+	background: pink;
+}
+.col2pg4 {
+	background: lightpink;
+}
+
+.firstpg4 {
+	color: blue;
+	background: lightpink;
+	width: 40%;
+	float: left;
+	padding: .5em;
+	}
+.secondpg4 {
+	color: blue;
+	background: lightpink;
+	width: 40%;
+	float: right;
+	padding: .5em;
+	border: 1 px solid yellow;
+	}
+}
+
+/*mobile styles*/
+@media only screen and (max-width:480px) {
+
+/*disable text sizing on orientation change*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	-webkit-text-size-adjust:none;
+}
+
+body {
+	width: 90%;
+	margin: 0 auto;
+	min-width: 320px;
+	max-width: 480px;
+	background-color: khaki;
+	}
+	.overall {
+		font: Satisfy, cursive;
+		text-shadow: 2px 2px white;
+		color: darkorange;
+		text-align: center;
+		background: lightblue;
+		margin-bottom: 2px;
+		margin-top: 2px;
+		border: 2px slateblue;
+		border-radius: 5px 10px 5px 10px;
+}
+img {
+	border: 1px solid darkorange;
+	max-width: 100%;
+	object-fit: cover;
+	}
+.col1 {
+	background: lightblue;
+	border: 2px solid darkblue;
+	border-radius: 2px 8px;
+	padding: .5em;
+	font-family: Georgia, Times, serif;
+	color: darkblue;
+	text-shadow: 1px 1px 0 orange;
+	}
+	/* Homepage Styles */
+	.col2home {
+	background: lightgoldenrodyellow;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-family: Georgia, Times, serif;
+	font-size: 60%;
+	color: darkblue;
+	padding: .5em;
+	border: 2px solid darkblue;
+	border-radius: 8px 2px;
+	}
+	
+.container1home {
+	background: lightgoldenrodyellow;
+	font-size: 60%;
+	color: blue;
+	padding: .5em;
+	border: 2px solid darkblue;
+	border-radius: 8px 2px;
+}
+
+.container2home {
+	background: lightgoldenrodyellow;
+	font-size: 60%;
+	color: blue;
+	padding: .5em;
+	border: 2px solid darkblue;
+	border-radius: 8px 2px;
+}	
+.col2header {
+	width: 100%;
+	height: auto;
+	}
+article {
+	padding-right: 1em;
+}
+	
+	/*Page2 Styles*/
+	
+.col2pg2 {
+	background: lightgoldenrodyellow;
+	color: blue;
+	padding: .5em;
+	border: 2px solid darkblue;
+	}
+article {
+	padding-right: 1em;
+}
+
+.firstpg2 {
+	color: blue;
+	padding: .5em;
+	font-size: 60%;
+	}
+.secondpg2 {
+	color: blue;
+	padding: .5em;
+	border: 1 px solid darkblue;
+	font-size: 60%;
+	}
+aside {
+	color: blue;
+	font: 80%;
+}
+
+.caption {
+		color: orange;
+		text-shadow: 1px dark blue;
+}
+	/*Page 3 Styles*/
+	.col2pg3 {
+	background: lightgoldenrodyellow;
+	font-family: Georgia, Times, serif;
+	font-size: 60%;
+	color: blue;
+	padding: .5em;
+	border: 2px solid darkblue;
+	}
+article {
+	padding-right: 1em;
+}
+
+.firstpg3 {
+	color: blue;
+	padding: .5em;
+	}
+.secondpg3 {
+	color: blue;
+	padding: .5em;
+	border: 1 px solid darkblue;
+	}
+/*Four Seasons Bakery Styles*/
+.col1fsb {
+	height: auto;
+	background: lightpink;
+}
+.col2pg4 {
+	background: lightgoldenrodyellow;
+	font-family: Georgia, Times, serif;
+	font-size: 60%;
+	color: blue;
+	border: 2px solid darkblue;
+	}
+	
+#top4 {
+	color: white;
+	text-shadow: 1px 1px 0 lawngreen;
+	}
+.overall4 {
+	position: relative;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+92,ff5c5c+100 */
+background: rgb(254,187,187); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(254,187,187,1) 0%, rgba(254,144,144,1) 92%, rgba(255,92,92,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(254,187,187,1) 0%,rgba(254,144,144,1) 92%,rgba(255,92,92,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(254,187,187,1) 0%,rgba(254,144,144,1) 92%,rgba(255,92,92,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+}
+article {
+	padding-right: 1em;
+}
+.container1pg4 {
+	background: pink;
+	color: blue;
+	border: 2px solid darkblue;
+	padding: .5em;
+	}
+.overviewpg4 {
+	background: pink;
+	padding: .5em;
+}
+.col2pg4 {
+	background: lightpink;
+	border-radius: 5px/10px 10px/5px; 
+}
+
+.firstpg4 {
+	color: blue;
+	background: lightpink;
+	}
+.secondpg4 {
+	color: blue;
+	background: lightpink;
+	border: 1px solid crimson;
+	}
+footer {
+	border: 2px solid darkblue;
+	padding: .5em;
+	font-size: 30%;
+}
+}
